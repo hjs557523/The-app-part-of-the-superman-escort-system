@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="admin_text">账号:</string>
+    <string name="password_text">密码:</string>
+    <string name="admin_hint">请输入帐号/手机号</string>
+    <string name="password_hint">请输入8~16位密码</string>
+    <string name="login_text">登录</string>
+</resources>

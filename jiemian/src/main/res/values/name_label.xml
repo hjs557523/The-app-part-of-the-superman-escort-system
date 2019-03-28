@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="name_label">
+
+        <item>体温</item>
+
+        <item>体重</item>
+
+        <item>心跳</item>
+
+        <item>血压</item>
+        <item>血脂</item>
+
+
+
+
+
+
+    </string-array>
+</resources>

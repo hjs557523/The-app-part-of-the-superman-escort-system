@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/Linearlayout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication.BgActivity">
+
+    <com.sackcentury.shinebuttonlib.ShineButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:src="@android:color/darker_gray"
+        android:id="@+id/po_image2"
+        app:btn_color="@android:color/darker_gray"
+        app:btn_fill_color="@android:color/holo_green_dark"
+        app:allow_random_color="false"
+        app:siShape="@raw/smile"/>
+
+</LinearLayout>

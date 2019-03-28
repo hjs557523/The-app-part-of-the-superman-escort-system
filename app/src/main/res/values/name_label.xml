@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="name_label">
+
+        <item>本次测量，您的体温</item>
+
+        <item>本次测量，您的体重</item>
+
+        <item>本次测量，您的心跳</item>
+
+        <item>本次测量，您的血压</item>
+
+        <item>本次测量，您的血脂</item>
+
+    </string-array>
+</resources>

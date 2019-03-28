@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateUserActivity"
+    android:orientation="vertical"
+    android:id="@+id/line1"
+
+    >
+    <LinearLayout
+        android:id="@+id/UserInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_weight="0.5"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/linearLayout11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/imageview2"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:alpha="1"
+                android:src="@drawable/superman_128" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="20dip">
+          <EditText
+                    android:id="@+id/new_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="20dip"
+                    android:background="@drawable/shape1"
+                    android:layout_weight="1"
+                    android:textColorHint="#80ffffff"
+                    android:textCursorDrawable="@null"
+                    android:hint="请填写您的用户名">
+
+                    <requestFocus />
+                </EditText>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="20dip">
+            <EditText
+                android:id="@+id/new_password_1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:background="@drawable/shape1"
+                android:layout_weight="1"
+                android:textColorHint="#80ffffff"
+                android:textCursorDrawable="@null"
+                android:hint="请设置您的密码"
+                android:inputType="textPassword"  />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="20dip">
+            <EditText
+                android:id="@+id/new_password_2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:background="@drawable/shape1"
+                android:layout_weight="1"
+                android:textColorHint="#80ffffff"
+                android:textCursorDrawable="@null"
+                android:hint="再次确认您的密码"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="5dip">
+
+
+
+            <RadioGroup
+                android:id="@+id/new_radio_group_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:id="@+id/new_gender_boy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:layout_marginLeft="30dip"
+                    android:text="男"
+                    android:textColor="#80ffffff"/>
+
+
+                <RadioButton
+                    android:id="@+id/new_gender_girl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:text="女"
+                    android:textColor="#80ffffff"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="5dip">
+
+
+
+            <EditText
+                android:id="@+id/new_age"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:background="@drawable/shape1"
+                android:layout_weight="1"
+                android:textColorHint="#80ffffff"
+                android:textCursorDrawable="@null"
+                android:hint="年龄"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="20dip" >
+
+
+            <EditText
+                android:id="@+id/new_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:background="@drawable/shape1"
+                android:layout_weight="1"
+                android:textColorHint="#80ffffff"
+                android:textCursorDrawable="@null"
+                android:hint="电话"
+                android:inputType="phone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="20dip" >
+
+
+
+            <EditText
+                android:id="@+id/new_email"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:background="@drawable/shape1"
+                android:layout_weight="1"
+                android:textColorHint="#80ffffff"
+                android:textCursorDrawable="@null"
+                android:hint="邮箱"
+                android:inputType="textWebEmailAddress" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dip" >
+
+            <Button
+                android:id="@+id/new_btn_submit"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:text="注册"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/shape3"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout77"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:layout_marginTop="20dip">
+            <Button
+                android:id="@+id/new_btn_reset"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:text="重置"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/shape3"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

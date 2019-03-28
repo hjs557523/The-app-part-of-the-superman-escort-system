@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="content_label">
+
+        <item>体温正常</item>
+
+        <item>体重正常</item>
+
+        <item>心跳正常</item>
+        <item>血压正常</item>
+        <item>血压正常</item>
+        <item>血脂正常</item>
+
+
+
+
+
+
+    </string-array>
+</resources>

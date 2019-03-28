@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <Button
+        android:id="@+id/back"
+        style="@style/back_button"
+        android:text="反馈意见"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="请您提出对我们的建议以及宝贵的意见！
+我们“超人不会飞”团队将会不断完善，
+尽我们所能，努力为您提供更好的服务！"/>
+
+    <EditText
+        android:id="@+id/opinion"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="top"
+        android:background="@drawable/edit_bg"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint=" 请输入您的反馈意见和建议"
+
+        />
+    <Button
+        android:id="@+id/submit"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="提交反馈"/>
+
+</LinearLayout>

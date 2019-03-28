@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.myapplication.QQContentFragmentActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/qqBlue"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/selector"
+                android:text="会话"
+                android:textSize="30dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="联系人"
+                android:background="@drawable/selector"
+                android:textSize="30dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="设置"
+                android:background="@drawable/selector"
+                android:textSize="30dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

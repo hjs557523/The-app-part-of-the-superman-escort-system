@@ -1,0 +1,22 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 135 ciObject found
+ciMethod java/lang/String <init> ([CII)V 2049 1 5463 0 -1
+ciMethod java/lang/String length ()I 4097 1 1379102 0 64
+ciMethod java/lang/String getChars (II[CI)V 2633 1 5499 0 320
+ciMethod java/lang/String substring (II)Ljava/lang/String; 2073 1 5399 0 992
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 7169 1 896 0 -1
+ciMethod java/lang/StringBuffer append (Ljava/lang/String;)Ljava/lang/StringBuffer; 2049 1 31226 0 1696
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 1153 1 12394 0 -1
+ciMethodData java/lang/String length ()I 2 1379102 orig 264 88 131 104 82 0 0 0 0 24 60 16 22 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 241 72 168 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/io/Writer write ([CII)V 0 0 1 0 -1
+ciMethod java/io/Writer write (Ljava/lang/String;II)V 0 0 1 0 -1
+ciMethod java/io/BufferedWriter ensureOpen ()V 3201 1 29977 0 0
+ciMethod java/io/BufferedWriter flushBuffer ()V 4097 1 5735 0 0
+ciMethod java/io/BufferedWriter min (II)I 4097 1 13459 0 0
+ciMethod java/io/BufferedWriter write (Ljava/lang/String;II)V 4097 4089 13453 0 1728
+ciMethodData java/lang/String getChars (II[CI)V 2 5499 orig 264 88 131 104 82 0 0 0 0 192 65 16 22 0 0 0 0 8 2 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 73 1 0 0 145 161 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 160 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 20 0x10007 0x1432 0x30 0x0 0x90002 0x0 0x130007 0x1432 0x30 0x0 0x1b0002 0x0 0x210007 0x1432 0x30 0x0 0x2b0002 0x0 0x3a0002 0x1432 oops 0
+ciMethodData java/lang/String substring (II)Ljava/lang/String; 2 5399 orig 264 88 131 104 82 0 0 0 0 112 92 16 22 0 0 0 0 40 2 0 0 208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 161 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 15 0 2 0 0 0 248 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 31 0x10007 0x1414 0x30 0x0 0x90002 0x0 0x130007 0x1414 0x30 0x0 0x1b0002 0x0 0x240007 0x1414 0x30 0x0 0x2c0002 0x0 0x310007 0x735 0x58 0xcdf 0x3a0007 0xaea 0x38 0x1f5 0x3e0003 0x1f5 0x28 0x4b0002 0x121f oops 0
+ciMethod java/io/StringWriter write (Ljava/lang/String;II)V 2161 1 827 0 0
+ciMethodData java/io/BufferedWriter ensureOpen ()V 2 29977 orig 264 88 131 104 82 0 0 0 0 184 253 39 22 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 144 1 0 0 73 156 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0

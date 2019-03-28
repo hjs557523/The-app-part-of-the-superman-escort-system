@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name1">超人护航App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="suggestion2">     如何才能使静息心率能保持在60次/分钟左右 </string>
+
+    <string name="suggestion3">     常参加各种强度适宜的运动，就会使静息心率变慢。虽然运动时心率加快，但运动能使心功能得到锻炼，从而使静息心率减慢。一般适宜的运动心率是“170-年龄”，如一个50岁人，运动心率控制在120次/分钟为宜，过快说明运动量过大，达不到也起不到效果。运动前要自觉舒适、无疲劳感，一般运动不要超过1小时，而且每次最佳时间为30分钟～60分钟，每周至少坚持3次运动。 </string>
+
+    <string name="suggestion4">     熬夜、吸烟、饮酒均可使静息心率加快。少喝浓茶，特别是不要在睡前喝，否则容易导致失眠。还应定时大便，保持排便顺畅。 </string>
+
+    <string name="suggestion5">    肥胖会使心脏负担加重，心率加快，因此肥胖者要通过健身运动，调节饮食来保持适宜的体重。 </string>
+
+    <string name="suggestion6">    生活中心态要平和，不要总着急、生气，如果因为紧张、生气等情况出现心率过快，可以通过听音乐、静心冥想等方式逐渐恢复平静。 </string>
+
+    <string name="suggestion7">    某些疾病如高血压及冠心病引起的心率加快，可根据医嘱服用药物，使心率减慢，保护心脏，减少与控制心肌缺血事件，改善心功能，延长寿命。 </string>
+
+    <string name="w1">    如何保持标准体重</string>
+
+    <string name="w2">    1.饮食控制是限制肥胖最有效又最省钱的方法，肥胖者应该严格遵守每天摄入约1800卡路里的热量，并坚持低脂肪的饮食。</string>
+
+    <string name="w3">    2.每天步行约一个小时，或做其它能燃烧相同热量的体育活动。</string>
+
+    <string name="w4">    3.有规律地吃早餐，经常吃粗粮和低脂肪乳制品。</string>
+
+    <string name="w5">    4.限制到餐馆吃饭的平均数量每周不超过三次，每周吃速食要少于一次。</string>
+
+    <string name="w6">    5.每周观看电视的时间不超过10小时。</string>
+
+    <string name="w7">    6.每周至少称一次体重。</string>
+
+    <string name="w8">    7.控制食物中高热量食品的含量和组分，并加强对学生和家长进行健康饮食的指导和教育。</string>
+
+    <string name="w9">    8.增加运动水平肯定是可以减少体重和促进健康的。但是这不一定意味着是剧烈的运动。而是应该更注重加快心率速度20~30分钟。快步走、跳舞、游泳和骑自行车都是此类很好的运动方式。 </string>
+
+    <string name="p1">    如何保持正常血压</string>
+
+    <string name="p2">    1.如果血压在正常范围之外，请控制饮食，不要过多地摄入高盐、低钙、低钾、低动物蛋白类物质，少食含有较多饱和脂肪酸的动物脂肪。</string>
+
+    <string name="p3">    2.平时要戒烟、戒酒、避免精神紧张，如果学习、工作压力过大，要做好自我调节，多参加体育锻炼。</string>
+
+    <string name="p4">    3.日常饮食中还可以多吃能保持血管年强化的食物。如海参、泥鳅、鳝鱼及芝麻、山药、银杏、豆腐皮和葵花子等，它们可以减少血管损伤。</string>
+
+    <string name="p5">    4.鱼类有改善血管弹性、顺应性及促进钠盐排泄作用。</string>
+
+    <string name="p6">    5.螺旋藻、香芹、胡萝卜、山楂、紫菜、海带、核桃及橄榄油、芝麻油等有去脂的作用，可以缓解血管老化。</string>
+
+    <string name="f1">    如何有效控制血脂</string>
+
+    <string name="f2">    1.高血脂很大一部分是吃出来的，高热量、高糖分、高脂肪等食物都会引起血脂升高，所以要控制饮食，这个要从个人一日三餐方面调整，最好的就是多吃蔬菜瓜果，常见的如洋葱、大蒜、海带、木耳、苹果等。除了食材的选择，还要遵循少吃多餐的原则，这样有助于食物的消化吸收。</string>
+
+    <string name="f3">    2. 绿茶具有很好的分解油脂，调节血脂的功效，血脂高的人建议常喝九叶蓝，药食同源，而且本身不含杂质。它含有丰富的人参皂甙、黄铜，能清除对人体有害的自由基，改善体质等。 每天早、中、晚都适量喝一些，利尿排毒，通便润肠，尤其适合办公室人群和老年人。</string>
+
+    <string name="f4">    3.白天的工作和生活压力会使人产生疲惫心理，如果不懂的排解，长期以往会导致抑郁、失眠、内分泌失调、免疫力下降等问题，缓解这些压力除了平时的放松，最重要的就是晚上的睡眠，好的睡眠不仅能让身心得到好的休眠，还能保持饱满的精神状态，积极的心态。</string>
+
+    <string name="f5">    4.高血脂的人建议选择有氧运动，运动量小、户内可进行，时间比较短，适合普遍人群，好的如瑜伽、骑自行车、游泳、跑步等。在工作疲劳的时候运动下也有助于舒缓神经，长期坚持能有效促进新陈代谢，塑形美体。</string>
+</resources>

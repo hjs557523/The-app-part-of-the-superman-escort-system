@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="49pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="148dp"
+            android:layout_height="152dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/heart_beat_128" />
+        <TextView
+            android:id="@+id/name"
+            android:layout_marginTop="10pt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="安行"
+            android:textColor="#333333"
+            android:textStyle="italic"
+            android:textSize="18pt"/>
+        <TextView
+            android:id="@+id/explain"
+            android:layout_marginTop="5pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="伴您安全出行"
+            android:textColor="#000000"
+            android:textSize="9pt"/>
+    </LinearLayout>
+
+
+</LinearLayout>
